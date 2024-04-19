@@ -26,7 +26,7 @@ if (help) {
 Provide input as Standard I/O
 
 Example calls:
-  $ echo example.com | pdisco
+  $ echo 'https://example.com' | pdisco
   $ cat url-list.txt | pdisco
   $ cat file.html | pdisco`
   );
