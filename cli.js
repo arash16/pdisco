@@ -3,6 +3,7 @@
 const { readFileSync } = require("fs");
 const { program } = require("commander");
 const { table } = require("table");
+const run = require('./lib');
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
@@ -39,7 +40,7 @@ const objToStr = (obj) =>
 
 !(async function () {
   const stdIn = readFileSync(0, "utf-8").trim();
-  const results = run(stdIn);
+  const results = await run(stdIn);
 
   if (full) {
     console.log(
