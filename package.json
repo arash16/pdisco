@@ -1,9 +1,11 @@
 {
   "name": "pdisco",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "license": "MIT",
-  "bin": "lib/index.js",
+  "bin": {
+    "pdisco": "cli.js"
+  },
   "dependencies": {
     "acorn": "^8.11.3",
     "acorn-walk": "^8.3.2",
