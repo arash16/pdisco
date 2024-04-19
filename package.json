@@ -1,0 +1,15 @@
+{
+  "name": "pdisco",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": "lib/index.js",
+  "dependencies": {
+    "acorn": "^8.11.3",
+    "acorn-walk": "^8.3.2",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^12.0.0",
+    "node-html-parser": "^6.1.13",
+    "table": "^6.8.2"
+  }
+}
